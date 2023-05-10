@@ -10,20 +10,20 @@ namespace IdentityServer
 			{
 				new Client
 				{
-					ClientId = "moviClient",
+					ClientId = "movieClient",
 					AllowedGrantTypes = GrantTypes.ClientCredentials,
 					ClientSecrets =
 					{
-						new Secret("secrect".Sha256())
+						new Secret("secret".Sha256())
 					},
-					AllowedScopes = {"moviesAPI"}
+					AllowedScopes = {"movieAPI"}
 				}
 			};
 
 		public static IEnumerable<ApiScope> ApiScopes =>
 			new ApiScope[]
 			{
-
+				new ApiScope("movieAPI", "Movie API")
 			};
 
 		public static IEnumerable<ApiResource> ApiResources =>

@@ -1,3 +1,4 @@
+using IdentityServer;
 using IdentityServer4.Models;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -8,11 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddIdentityServer()
-	.AddInMemoryClients(new List<Client>())
-	.AddInMemoryIdentityResources(new List<IdentityResource>())
-	.AddInMemoryApiResources(new List<ApiResource>())
-	.AddInMemoryApiScopes(new List<ApiScope>())
-	.AddTestUsers(new List<IdentityServer4.Test.TestUser>())
+	.AddInMemoryClients(Config.Clients)
+	//.AddInMemoryIdentityResources(Config.identityResources)
+	//.AddInMemoryApiResources(Config.ApiResources)
+	.AddInMemoryApiScopes(Config.ApiScopes)
+	//.AddTestUsers(Config.TestUsers)
 	.AddDeveloperSigningCredential();
 
 var app = builder.Build();
