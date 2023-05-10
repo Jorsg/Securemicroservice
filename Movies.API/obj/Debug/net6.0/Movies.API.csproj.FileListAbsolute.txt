@@ -275,3 +275,4 @@ D:\Repos\repos\SecureMicroservices\Movies.API\bin\Debug\net6.0\Microsoft.Extensi
 D:\Repos\repos\SecureMicroservices\Movies.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\Repos\repos\SecureMicroservices\Movies.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 D:\Repos\repos\SecureMicroservices\Movies.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Repos\repos\SecureMicroservices\Movies.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

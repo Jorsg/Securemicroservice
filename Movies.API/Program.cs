@@ -24,6 +24,20 @@ public class Program
 			.AddEnvironmentVariables()
 			.AddJsonFile("appsetting.json");
 
+		builder.Services.AddAuthentication("Bearer")
+			.AddJwtBearer("Bearer", opt =>
+			{
+				opt.Authority = "https://localhost:5005";
+				opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+				{
+					ValidateAudience = false,
+				};
+			});
+		builder.Services.AddAuthorization(opt =>
+		{
+			opt.AddPolicy("ClientIdPolicy", policy => policy.RequireClaim("client_id", "movieClient"));
+		});
+
 
 		var app = builder.Build();
 
@@ -35,6 +49,7 @@ public class Program
 		}
 
 		app.UseHttpsRedirection();
+		app.UseAuthentication();
 		app.UseAuthorization();
 		app.MapControllers();
 		// Seed the database
