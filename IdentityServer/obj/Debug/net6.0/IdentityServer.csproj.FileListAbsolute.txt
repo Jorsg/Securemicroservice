@@ -41,3 +41,6 @@ D:\Repos\repos\SecureMicroservices\IdentityServer\bin\Debug\net6.0\Microsoft.Ide
 D:\Repos\repos\SecureMicroservices\IdentityServer\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\Repos\repos\SecureMicroservices\IdentityServer\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\Repos\repos\SecureMicroservices\IdentityServer\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Repos\repos\SecureMicroservices\IdentityServer\bin\Debug\net6.0\IdentityServer.staticwebassets.runtime.json
+D:\Repos\repos\SecureMicroservices\IdentityServer\obj\Debug\net6.0\IdentityServer.RazorAssemblyInfo.cache
+D:\Repos\repos\SecureMicroservices\IdentityServer\obj\Debug\net6.0\IdentityServer.RazorAssemblyInfo.cs

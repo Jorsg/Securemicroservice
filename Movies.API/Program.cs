@@ -10,6 +10,7 @@ public class Program
 	public static void Main(string[] args)
 	{
 		var builder = WebApplication.CreateBuilder(args);
+		var config = builder.Configuration;
 
 
 		// Add services to the container.
@@ -27,7 +28,7 @@ public class Program
 		builder.Services.AddAuthentication("Bearer")
 			.AddJwtBearer("Bearer", opt =>
 			{
-				opt.Authority = "https://localhost:5005";
+				opt.Authority = config["Bearer:Url"];
 				opt.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
 				{
 					ValidateAudience = false,
