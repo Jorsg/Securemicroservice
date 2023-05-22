@@ -252,3 +252,10 @@ D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\runtimes\win\l
 D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Repos\repos\SecureMicroservices\Movies.Client\obj\Debug\net6.0\Movies.Client.csproj.CopyComplete
+D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Repos\repos\SecureMicroservices\Movies.Client\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
